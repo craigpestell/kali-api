@@ -1,0 +1,23 @@
+exports = module.exports = {
+	tags: [
+		'dragons',
+		'training',
+		'test',
+		'tags',
+		'as',
+		'coffee',
+		'flowers',
+		'money',
+		'sugar',
+		'japan',
+		'sushi',
+		'caramel',
+		'happiness',
+		'cars',
+		'cookies',
+		'clean',
+		'well',
+		'baby',
+		'animation',
+	],
+};
