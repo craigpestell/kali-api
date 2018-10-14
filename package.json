@@ -52,7 +52,7 @@
             "ref": "origin/master",
             "repo": "git@github.com:craigpestell/kali-api.git",
             "path": "/home/repn/workspace/kali-api",
-            "post-deploy": "npm install && pm2 reload ecosystem.config.js --env production"
+            "post-deploy": "npm install && pm2 reload "
         },
         "production": {
             "user": "node",
@@ -60,7 +60,7 @@
             "ref": "origin/master",
             "repo": "git@github.com:craigpestell/kali-api.git",
             "path": "~/workspace/kali-api",
-            "post-deploy": "npm install && pm2 reload ecosystem.config.js --env production"
+            "post-deploy": "npm install && pm2 reload --env production"
         }
     }
 }
