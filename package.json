@@ -31,7 +31,7 @@
         "start": "node keystone.js"
     },
     "apps": [{
-        "name": "API",
+        "name": "kali-api",
         "script": "keystone.js",
         "args": "",
         "instances": 1,
