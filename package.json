@@ -52,7 +52,7 @@
             "ref": "origin/master",
             "repo": "https://github.com/craigpestell/kali-api.git",
             "path": "/home/repn/workspace/kali-api",
-            "post-deploy": "npm install && pm2 reload --env development"
+            "post-deploy": "npm install && pm2 reload kali-api --env development"
         },
         "production": {
             "user": "node",
