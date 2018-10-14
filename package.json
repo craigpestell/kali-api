@@ -51,7 +51,7 @@
             "host": "kali-dev",
             "ref": "origin/master",
             "repo": "git@github.com:craigpestell/kali-api.git",
-            "path": "/home/craig/workspace/kali-api",
+            "path": "/home/repn/workspace/kali-api",
             "post-deploy": "npm install && pm2 reload ecosystem.config.js --env production"
         },
         "production": {
