@@ -50,7 +50,7 @@
             "user": "repn",
             "host": "kali-dev",
             "ref": "origin/master",
-            "repo": "git@github.com:craigpestell/kali-api.git",
+            "repo": "https://github.com/craigpestell/kali-api.git",
             "path": "/home/repn/workspace/kali-api",
             "post-deploy": "npm install && pm2 reload "
         },
